@@ -1,0 +1,13 @@
+<script>
+var tw = ['ten', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety', 'hundred'];
+for(let i = 0; i < 100; i++){
+
+  let divider = i%10;
+  if(divider == 0) {
+    let result = Math.floor(i/10);
+    console.log(tw[result])
+  }
+  console.log(i)
+}
+
+</script>
